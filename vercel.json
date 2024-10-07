@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/google/:match",
-      "destination": "https://www.google.com/:match"
+      "source": "/google/(.*)",
+      "destination": "https://www.google.com/$1"
     }
   ]
 }
