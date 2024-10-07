@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/beekle/(.*)",
-      "destination": "https://beekle.jp/$1"
+      "source": "/google/(.*)",
+      "destination": "https://www.google.com/$1"
     }
   ]
 }
