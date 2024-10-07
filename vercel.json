@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/google",
-      "destination": "https://google.com"
+      "source": "/google/:match",
+      "destination": "https://www.google.com/:match"
     }
   ]
 }
